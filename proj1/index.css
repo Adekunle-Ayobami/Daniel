@@ -1,8 +1,45 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #e0e6ea;
-  height: 120vh;
+  height: 145vh;
 }
+/* Navbar */
+.nav {
+  display: flex;
+  padding-left: 5%;
+  justify-content: space-between;
+  gap: 45%;
+}
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5%;
+  width: 100%;
+}
+.nav-ul li {
+  color: #1d2c3c;
+  font-weight: 600;
+  cursor: pointer;
+}
+.account {
+  border: 1px solid #646e7a;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 20%;
+  cursor: pointer;
+}
+.account:hover {
+  background-color: #646e7a;
+  color: #fff;
+}
+.hr {
+  width: 93%;
+  border: 1px solid lightblue;
+  margin-bottom: 5%;
+}
+
+/* Container */
 .container {
   display: flex;
   justify-content: center;
@@ -88,7 +125,7 @@ body {
   top: 6px;
 }
 sup {
-    position: relative;
-    bottom: 2em;
-    font-size: 16px;
+  position: relative;
+  bottom: 2em;
+  font-size: 16px;
 }
